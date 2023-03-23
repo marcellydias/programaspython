@@ -1,0 +1,22 @@
+01
+velocidade = float (input("Digite a velocidade em m/s: "))
+vkm= velocidade*3.6
+print ("A velocidade {} m/s é igual a {} Km/h ".format(velocidade, vkm))
+
+02
+import math 
+raio = float (input("Digite o raio do círculo: "))
+comprimento= float(2*math.pi*raio)
+print ("O comprimento do circulo de raio %d é %.3f"%(raio, comprimento))
+
+03
+num = float (input("Digite um número:  "))
+ant= num-1
+suc= num+1
+print ("O antecessor do número {} é {} e o sucessor é {}" .format(num, ant, suc))
+
+04
+anoN = int (input("Digite o ano em que você nasceu: "))
+anoAtual = int (input("Digite o ano atual: "))
+idade = anoAtual-anoN
+print ("Sua idade é: ",idade, "anos")
